@@ -1,0 +1,261 @@
+
+
+BGH17418@BGHM17418 MINGW64 ~
+$
+
+BGH17418@BGHM17418 MINGW64 ~
+$ cd d
+bash: cd: d: No such file or directory
+
+BGH17418@BGHM17418 MINGW64 ~
+$ d
+bash: d: command not found
+
+BGH17418@BGHM17418 MINGW64 ~
+$ d:
+bash: d:: command not found
+
+BGH17418@BGHM17418 MINGW64 ~
+$ cd \d
+bash: cd: d: No such file or directory
+
+BGH17418@BGHM17418 MINGW64 ~
+$ cd /d
+
+BGH17418@BGHM17418 MINGW64 /d
+$ pwd
+/d
+
+BGH17418@BGHM17418 MINGW64 /d
+$ cd
+
+BGH17418@BGHM17418 MINGW64 ~
+$
+
+BGH17418@BGHM17418 MINGW64 ~
+$
+
+BGH17418@BGHM17418 MINGW64 ~
+$
+
+BGH17418@BGHM17418 MINGW64 ~
+$ cd D:\aricent_devops\new
+bash: cd: D:aricent_devopsnew: No such file or directory
+
+BGH17418@BGHM17418 MINGW64 ~
+$ cd D
+bash: cd: D: No such file or directory
+
+BGH17418@BGHM17418 MINGW64 ~
+$ cd /d
+
+BGH17418@BGHM17418 MINGW64 /d
+$ cd aricent_devops/
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops
+$ cd new
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new
+$ git config --global user.name "pankajgree"
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new
+$ git config --global user.email "pankajgreen@yahoo.com"
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new
+$ git clone "https://github.com/pankajgree/myproj.git"
+Cloning into 'myproj'...
+remote: Counting objects: 10, done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (10/10), done.
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new
+$ git init
+Initialized empty Git repository in D:/aricent_devops/new/.git/
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new (master)
+$ git --
+--bare                 --exec-path=           --help                 --info-path            --namespace=           --no-replace-objects   --version
+--exec-path            --git-dir=             --html-path            --man-path             --no-pager             --paginate             --work-tree=
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new (master)
+$ git --help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new (master)
+$ branch
+bash: branch: command not found
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new (master)
+$ git branch
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new (master)
+$ ls
+'~$Git-CVS.pptx'   AWS2.pptx          Chef.pptx     Docker.pptx    jenkins/         Jenkins-MS.pptx   myproj/       Sonar_Jenkins.pptx
+ AWS.pptx          AWSInstance.pptx   DevOps.pptx   Git-CVS.pptx   Jenkins-DP.ppt   Jenkins-UT.pptx   Nagios.pptx
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        AWS.pptx
+        AWS2.pptx
+        AWSInstance.pptx
+        Chef.pptx
+        DevOps.pptx
+        Docker.pptx
+        Git-CVS.pptx
+        Jenkins-DP.ppt
+        Jenkins-MS.pptx
+        Jenkins-UT.pptx
+        Nagios.pptx
+        Sonar_Jenkins.pptx
+        jenkins/
+        myproj/
+        ~$Git-CVS.pptx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new (master)
+$ cd myproj/
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ ls
+pankaj_new.c  README.md
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ cat pankaj_new.c
+#include <stdio.h>
+main()sdsiqwhsw
+{
+        printf("my first checking");
+        printf("this is the first git file\n");
+}
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ vi pankaj1.c
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        pankaj1.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ git add .
+warning: LF will be replaced by CRLF in pankaj1.c.
+The file will have its original line endings in your working directory.
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   pankaj1.c
+
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ git pull
+Already up-to-date.
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   pankaj1.c
+
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ git commit -m "my check in"
+[master 0f4fe43] my check in
+ 1 file changed, 6 insertions(+)
+ create mode 100644 pankaj1.c
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+$ git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': pankajgree
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 361 bytes | 361.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/pankajgree/myproj.git
+   d23b818..0f4fe43  master -> master
+
+BGH17418@BGHM17418 MINGW64 /d/aricent_devops/new/myproj (master)
+
+$ git checkout student
+$ git checkout master
+$ git merge master
