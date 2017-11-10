@@ -1,0 +1,8 @@
+git config --global --get http.proxy
+git config --global  http.proxy http://bgh45829:password@165.225.104.34:80
+git config --global  https.proxy https://bgh45829:password@165.225.104.34:80
+
+
+git config --global --get http.proxy
+git config --global  http.proxy http://165.225.104.34:80
+git config --global  https.proxy https://165.225.104.34:80
